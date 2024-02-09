@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_TL_SearchItem_Validation,Chrome 121.0.0.0,,,09-02-2024 01:46:14,09-02-2024 01:46:51,36.966s,PASSED
+,,,,,,,
+Test Cases/Amazon_TestListener/TC_Amazon_TL_SearchItem_Validate,Chrome 121.0.0.0,,,09-02-2024 01:46:14,09-02-2024 01:46:51,36.514s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 01:46:15,09-02-2024 01:46:18,3.293s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 01:46:18,09-02-2024 01:46:20,2.090s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 01:46:20,09-02-2024 01:46:20,0.170s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=computers-intl-ship"", true)",Chrome 121.0.0.0,,,09-02-2024 01:46:20,09-02-2024 01:46:43,22.444s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""intel cpu"")",Chrome 121.0.0.0,,,09-02-2024 01:46:43,09-02-2024 01:46:44,1.470s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 01:46:44,09-02-2024 01:46:51,6.516s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 01:46:51,09-02-2024 01:46:51,0.284s,PASSED

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_Suite_Local_and_Global_Variables_001" time="40.745" tests="2" failures="0" errors="0">
+   <testsuite name="Test_Suite_Local_and_Global_Variables_001" tests="2" failures="0" errors="0" time="40.745" skipped="0" timestamp="09-02-2024T01:14:23" hostname="itsam - Sai_Prakash" id="Test Suites/Amazon_Test_Suite_Local_and_Global_Variables/Test_Suite_Local_and_Global_Variables_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\itsam\\git\\Amazon_Katalon_SI_Project\\Reports\\20240209_011415\\Amazon_Test_Suite_Local_and_Global_Variables\\Test_Suite_Local_and_Global_Variables_001\\20240209_011415"/>
+         <property name="logFiles" value="C:\\Users\\itsam\\git\\Amazon_Katalon_SI_Project\\Reports\\20240209_011415\\Amazon_Test_Suite_Local_and_Global_Variables\\Test_Suite_Local_and_Global_Variables_001\\20240209_011415\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itsam - Sai_Prakash"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.203"/>
+         <property name="sessionId" value="dad3def1a74d273e17875c1c1ee98763"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Local and Global Variables/TC_Amazon_Global_Variable" time="21.259" classname="Test Cases/Local and Global Variables/TC_Amazon_Global_Variable" status="PASSED">
+         <system-out><![CDATA[09-02-2024T01:14:23 - [TEST_CASE][PASSED] - Test Cases/Local and Global Variables/TC_Amazon_Global_Variable: Test Cases/Local and Global Variables/TC_Amazon_Global_Variable
+
+09-02-2024T01:14:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T01:14:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T01:14:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T01:14:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T01:14:27 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T01:14:29 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T01:14:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-02-2024T01:14:30 - [MESSAGE][PASSED] - Current window maximized
+
+09-02-2024T01:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T01:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T01:14:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email"), Email): Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T01:14:40 - [MESSAGE][PASSED] - Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T01:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T01:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T01:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password"), Password): Text 'apple@321' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T01:14:44 - [MESSAGE][PASSED] - Text 'apple@321' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T01:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T01:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T01:14:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T01:14:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Local and Global Variables/TC_Amazon_Local_Variable" time="19.035" classname="Test Cases/Local and Global Variables/TC_Amazon_Local_Variable" status="PASSED">
+         <system-out><![CDATA[09-02-2024T01:14:44 - [TEST_CASE][PASSED] - Test Cases/Local and Global Variables/TC_Amazon_Local_Variable: Test Cases/Local and Global Variables/TC_Amazon_Local_Variable
+
+09-02-2024T01:14:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T01:14:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T01:14:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T01:14:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T01:14:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T01:14:48 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T01:14:48 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-02-2024T01:14:48 - [MESSAGE][PASSED] - Current window maximized
+
+09-02-2024T01:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T01:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T01:14:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email"), Email): Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T01:15:00 - [MESSAGE][PASSED] - Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T01:15:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T01:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T01:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password"), Password): Text 'apple@321' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T01:15:03 - [MESSAGE][PASSED] - Text 'apple@321' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T01:15:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T01:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T01:15:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T01:15:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2024T01:14:23 - [TEST_SUITE][PASSED] - Test_Suite_Local_and_Global_Variables_001: Test Cases/Local and Global Variables/TC_Amazon_Local_Variable]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

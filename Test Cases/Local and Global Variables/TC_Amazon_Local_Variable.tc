@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Amazon_Local_Variable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b201dbf-40e1-4465-8227-1e603d1e4feb</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>52721694-6029-4acb-89d7-462638acd369</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Amazon_Data_Files_Excel/Amazon_TestData_Excel</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>52721694-6029-4acb-89d7-462638acd369</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
+      <variableId>985f7824-153f-4c15-b584-2f4e219c2665</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>52721694-6029-4acb-89d7-462638acd369</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>77af2edf-81c7-4112-a11d-a8bd594e6485</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>985f7824-153f-4c15-b584-2f4e219c2665</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77af2edf-81c7-4112-a11d-a8bd594e6485</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

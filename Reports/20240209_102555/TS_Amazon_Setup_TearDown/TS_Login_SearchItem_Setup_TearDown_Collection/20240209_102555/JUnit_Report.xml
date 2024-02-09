@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Login_SearchItem_Setup_TearDown_Collection" time="55.935" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Login_SearchItem_Setup_TearDown" tests="2" failures="0" errors="0" time="47.492" skipped="0" timestamp="09-02-2024T10:26:06" hostname="itsam - Sai_Prakash" id="Test Suites/TS_Amazon_Setup_TearDown/TS_Login_SearchItem_Setup_TearDown">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\itsam\\git\\Amazon_Katalon_SI_Project\\Reports\\20240209_102555\\TS_Amazon_Setup_TearDown\\TS_Login_SearchItem_Setup_TearDown\\20240209_102556"/>
+         <property name="logFiles" value="C:\\Users\\itsam\\git\\Amazon_Katalon_SI_Project\\Reports\\20240209_102555\\TS_Amazon_Setup_TearDown\\TS_Login_SearchItem_Setup_TearDown\\20240209_102556\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="itsam - Sai_Prakash"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.29.203"/>
+         <property name="sessionId" value="cf2160aa5c3f67a841f593e3c0d93e07"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002" time="19.517" classname="Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002" status="PASSED">
+         <system-out><![CDATA[09-02-2024T10:26:07 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002: Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002
+
+09-02-2024T10:26:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T10:26:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T10:26:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T10:26:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T10:26:10 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T10:26:12 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T10:26:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-02-2024T10:26:12 - [MESSAGE][PASSED] - Current window maximized
+
+09-02-2024T10:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T10:26:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+09-02-2024T10:26:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email"), "8897298271"): Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T10:26:23 - [MESSAGE][PASSED] - Text '8897298271' is set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email'
+
+09-02-2024T10:26:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T10:26:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+09-02-2024T10:26:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password"), "BAJT1ZPoE3l3o21u9YY6QQ=="): Text ****** has been set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T10:26:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password'
+
+09-02-2024T10:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T10:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+09-02-2024T10:26:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T10:26:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004" time="27.46" classname="Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004" status="PASSED">
+         <system-out><![CDATA[09-02-2024T10:26:26 - [TEST_CASE][PASSED] - Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004: Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004
+
+09-02-2024T10:26:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+09-02-2024T10:26:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+09-02-2024T10:26:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+09-02-2024T10:26:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+09-02-2024T10:26:28 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T10:26:29 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+09-02-2024T10:26:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+09-02-2024T10:26:30 - [MESSAGE][PASSED] - Current window maximized
+
+09-02-2024T10:26:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92"), "search-alias=computers-intl-ship", true): All options with value 'search-alias=computers-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+09-02-2024T10:26:43 - [MESSAGE][PASSED] - All options with value 'search-alias=computers-intl-ship' are selected in object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92'  using regular expression
+
+09-02-2024T10:26:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords"), "intel cpu"): Text 'intel cpu' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+09-02-2024T10:26:46 - [MESSAGE][PASSED] - Text 'intel cpu' is set on object 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords'
+
+09-02-2024T10:26:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button")): Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+09-02-2024T10:26:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button' is clicked on
+
+09-02-2024T10:26:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+09-02-2024T10:26:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-02-2024T10:26:06 - [TEST_SUITE][PASSED] - TS_Login_SearchItem_Setup_TearDown: Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

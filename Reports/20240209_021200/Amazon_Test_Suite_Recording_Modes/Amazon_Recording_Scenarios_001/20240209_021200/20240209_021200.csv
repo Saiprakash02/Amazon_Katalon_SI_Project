@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Chrome 121.0.0.0,,,09-02-2024 02:12:08,09-02-2024 02:13:39,1m - 31.126s,FAILED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_AddtoCart_003,Chrome 121.0.0.0,,,09-02-2024 02:12:08,09-02-2024 02:12:41,32.661s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:12:09,09-02-2024 02:12:12,3.243s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:12:12,09-02-2024 02:12:14,2.072s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:12:14,09-02-2024 02:12:14,0.176s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,09-02-2024 02:12:14,09-02-2024 02:12:25,10.610s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""wings of fire by apj abdul kalam"")",Chrome 121.0.0.0,,,09-02-2024 02:12:25,09-02-2024 02:12:26,1.284s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 02:12:26,09-02-2024 02:12:34,7.899s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  wings of fire by apj abdul kalam/span_Wings of fire An autobiography""))",Chrome 121.0.0.0,,,09-02-2024 02:12:34,09-02-2024 02:12:39,5.393s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Wings of fire An autobiography A. P. J_a51136/input_Not added_a-button-input""))",Chrome 121.0.0.0,,,09-02-2024 02:12:39,09-02-2024 02:12:41,1.399s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:12:41,09-02-2024 02:12:41,0.350s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_DeleteItemFromCart_005,Chrome 121.0.0.0,,,09-02-2024 02:12:41,09-02-2024 02:12:44,3.425s,FAILED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:12:41,09-02-2024 02:12:42,1.140s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:12:42,09-02-2024 02:12:44,1.884s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_delete_item_from_cart_TC005/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), ""chemistry book"")",Chrome 121.0.0.0,,,09-02-2024 02:12:44,09-02-2024 02:12:44,0.254s,FAILED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004,Chrome 121.0.0.0,,,09-02-2024 02:12:44,09-02-2024 02:13:12,27.161s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:12:45,09-02-2024 02:12:46,1.257s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:12:46,09-02-2024 02:12:48,1.804s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:12:48,09-02-2024 02:12:48,0.134s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=computers-intl-ship"", true)",Chrome 121.0.0.0,,,09-02-2024 02:12:48,09-02-2024 02:13:03,15.072s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""intel cpu"")",Chrome 121.0.0.0,,,09-02-2024 02:13:03,09-02-2024 02:13:04,1.547s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 02:13:04,09-02-2024 02:13:11,6.963s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:13:11,09-02-2024 02:13:12,0.267s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002,Chrome 121.0.0.0,,,09-02-2024 02:13:12,09-02-2024 02:13:39,27.426s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:13:12,09-02-2024 02:13:13,1.107s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:13:13,09-02-2024 02:13:14,1.300s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:13:14,09-02-2024 02:13:14,0.127s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,09-02-2024 02:13:14,09-02-2024 02:13:25,11.086s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), ""8897298271"")",Chrome 121.0.0.0,,,09-02-2024 02:13:25,09-02-2024 02:13:36,10.135s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,09-02-2024 02:13:36,09-02-2024 02:13:37,1.715s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), ""BAJT1ZPoE3l3o21u9YY6QQ=="")",Chrome 121.0.0.0,,,09-02-2024 02:13:37,09-02-2024 02:13:38,1.144s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,09-02-2024 02:13:38,09-02-2024 02:13:39,0.455s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:13:39,09-02-2024 02:13:39,0.254s,PASSED

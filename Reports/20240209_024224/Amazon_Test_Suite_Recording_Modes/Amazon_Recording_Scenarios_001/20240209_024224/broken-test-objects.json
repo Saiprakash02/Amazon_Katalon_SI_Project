@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon_Add_To_Cart_OR/Page_Wings of fire An autobiography A. P. J_a51136/input_Not added_a-button-input",
+      "brokenLocator": "(//input[@type\u003d\u0027submit\u0027])[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027submit\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240209_024224/Amazon_Test_Suite_Recording_Modes/Amazon_Recording_Scenarios_001/20240209_024224/Object Repository/Amazon_Add_To_Cart_OR/Page_Wings of fire An autobiography A. P. J_a51136/input_Not added_a-button-input_customAttributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Amazon.com Shopping Cart/input_Chemistry Made Easy An Illustrated Study Guide For Students To Easily Learn Chemistry_submit.delete.7f574522-d287-4868-9a9b-3bd222b033d4",
+      "brokenLocator": "//input[@name\u003d\u0027submit.delete.7f574522-d287-4868-9a9b-3bd222b033d4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span[2]/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240209_024224/Amazon_Test_Suite_Recording_Modes/Amazon_Recording_Scenarios_001/20240209_024224/Object Repository/Page_Amazon.com Shopping Cart/input_Chemistry Made Easy An Illustrated Study Guide For Students To Easily Learn Chemistry_submit.delete.7f574522-d287-4868-9a9b-3bd222b033d4_position.png"
+    }
+  ]
+}

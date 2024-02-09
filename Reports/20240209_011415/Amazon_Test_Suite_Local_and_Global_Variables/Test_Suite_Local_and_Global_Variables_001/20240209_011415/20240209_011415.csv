@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test_Suite_Local_and_Global_Variables_001,Chrome 121.0.0.0,,,09-02-2024 01:14:23,09-02-2024 01:15:04,40.745s,PASSED
+,,,,,,,
+Test Cases/Local and Global Variables/TC_Amazon_Global_Variable,Chrome 121.0.0.0,,,09-02-2024 01:14:23,09-02-2024 01:14:44,21.259s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 01:14:24,09-02-2024 01:14:27,3.335s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 01:14:27,09-02-2024 01:14:29,2.137s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 01:14:29,09-02-2024 01:14:30,0.212s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,09-02-2024 01:14:30,09-02-2024 01:14:38,8.576s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 121.0.0.0,,,09-02-2024 01:14:38,09-02-2024 01:14:40,1.854s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,09-02-2024 01:14:40,09-02-2024 01:14:42,1.725s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), Password)",Chrome 121.0.0.0,,,09-02-2024 01:14:42,09-02-2024 01:14:44,1.829s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,09-02-2024 01:14:44,09-02-2024 01:14:44,0.475s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 01:14:44,09-02-2024 01:14:44,0.316s,PASSED
+,,,,,,,
+Test Cases/Local and Global Variables/TC_Amazon_Local_Variable,Chrome 121.0.0.0,,,09-02-2024 01:14:44,09-02-2024 01:15:04,19.035s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 01:14:45,09-02-2024 01:14:46,1.343s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 01:14:46,09-02-2024 01:14:48,1.864s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 01:14:48,09-02-2024 01:14:48,0.136s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,09-02-2024 01:14:48,09-02-2024 01:14:58,10.248s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), Email)",Chrome 121.0.0.0,,,09-02-2024 01:14:58,09-02-2024 01:15:00,1.407s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,09-02-2024 01:15:00,09-02-2024 01:15:01,1.643s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), Password)",Chrome 121.0.0.0,,,09-02-2024 01:15:01,09-02-2024 01:15:03,1.374s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,09-02-2024 01:15:03,09-02-2024 01:15:03,0.486s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 01:15:03,09-02-2024 01:15:04,0.312s,PASSED

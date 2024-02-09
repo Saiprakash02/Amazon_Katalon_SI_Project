@@ -1,0 +1,45 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Amazon_Recording_Scenarios_001,Chrome 121.0.0.0,,,09-02-2024 02:48:56,09-02-2024 02:51:51,2m - 55.530s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_AddtoCart_003,Chrome 121.0.0.0,,,09-02-2024 02:48:56,09-02-2024 02:50:11,1m - 14.337s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:48:56,09-02-2024 02:49:00,3.153s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:49:00,09-02-2024 02:49:02,2.154s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:49:02,09-02-2024 02:49:02,0.177s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=stripbooks-intl-ship"", true)",Chrome 121.0.0.0,,,09-02-2024 02:49:02,09-02-2024 02:49:19,17.338s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""wings of fire by apj abdul kalam"")",Chrome 121.0.0.0,,,09-02-2024 02:49:19,09-02-2024 02:49:21,1.702s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 02:49:21,09-02-2024 02:49:30,8.575s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Amazon.com  wings of fire by apj abdul kalam/span_Wings of fire An autobiography""))",Chrome 121.0.0.0,,,09-02-2024 02:49:30,09-02-2024 02:49:35,5.515s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Add_To_Cart_OR/Page_Wings of fire An autobiography A. P. J_a51136/input_Not added_a-button-input""))",Chrome 121.0.0.0,,,09-02-2024 02:49:35,09-02-2024 02:50:10,35.162s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:50:10,09-02-2024 02:50:11,0.315s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_DeleteItemFromCart_005,Chrome 121.0.0.0,,,09-02-2024 02:50:11,09-02-2024 02:51:08,57.734s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:50:11,09-02-2024 02:50:12,1.217s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:50:12,09-02-2024 02:50:13,1.468s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:50:13,09-02-2024 02:50:13,0.168s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Delete_Item_FromCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""chemistry book"")",Chrome 121.0.0.0,,,09-02-2024 02:50:13,09-02-2024 02:50:15,1.480s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Delete_Item_FromCart_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 02:50:15,09-02-2024 02:50:22,7.102s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Delete_Item_FromCart_OR/Page_Amazon.com  chemistry book/span_Workman Publishing Company - To Ace Ch_e4e63f""))",Chrome 121.0.0.0,,,09-02-2024 02:50:22,09-02-2024 02:50:29,7.057s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Delete_Item_FromCart_OR/Page_Chemistry Made Easy An Illustrated Study Guide For Students To Easily Learn Chemistry NEDU 9781952914058 Amazon.com Books/span_Add to Cart""))",Chrome 121.0.0.0,,,09-02-2024 02:50:29,09-02-2024 02:50:33,4.272s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com Shopping Cart/span_Go to Cart""))",Chrome 121.0.0.0,,,09-02-2024 02:50:33,09-02-2024 02:50:36,2.894s,PASSED
+"click(findTestObject(""Object Repository/Page_Amazon.com Shopping Cart/input_Chemistry Made Easy An Illustrated Study Guide For Students To Easily Learn Chemistry_submit.delete.7f574522-d287-4868-9a9b-3bd222b033d4""))",Chrome 121.0.0.0,,,09-02-2024 02:50:36,09-02-2024 02:51:08,31.673s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:51:08,09-02-2024 02:51:08,0.288s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_SearchItem_004,Chrome 121.0.0.0,,,09-02-2024 02:51:08,09-02-2024 02:51:31,23.185s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:51:08,09-02-2024 02:51:10,1.129s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:51:10,09-02-2024 02:51:11,1.524s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:51:11,09-02-2024 02:51:11,0.134s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/select_All Departments        Arts  Crafts _135c92""), ""search-alias=computers-intl-ship"", true)",Chrome 121.0.0.0,,,09-02-2024 02:51:11,09-02-2024 02:51:23,11.956s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_field-keywords""), ""intel cpu"")",Chrome 121.0.0.0,,,09-02-2024 02:51:23,09-02-2024 02:51:24,1.174s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Search_Item_OR/Page_Amazon.com. Spend less. Smile more/input_Search Amazon_nav-search-submit-button""))",Chrome 121.0.0.0,,,09-02-2024 02:51:24,09-02-2024 02:51:31,6.916s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:51:31,09-02-2024 02:51:31,0.239s,PASSED
+,,,,,,,
+Test Cases/Amazon_Test_Cases/TC_Amazon_SignIn_002,Chrome 121.0.0.0,,,09-02-2024 02:51:31,09-02-2024 02:51:51,19.838s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,09-02-2024 02:51:32,09-02-2024 02:51:33,1.044s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,09-02-2024 02:51:33,09-02-2024 02:51:34,1.894s,PASSED
+maximizeWindow(),Chrome 121.0.0.0,,,09-02-2024 02:51:34,09-02-2024 02:51:35,0.139s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,09-02-2024 02:51:35,09-02-2024 02:51:46,11.614s,PASSED
+"setText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_email""), ""8897298271"")",Chrome 121.0.0.0,,,09-02-2024 02:51:46,09-02-2024 02:51:48,1.473s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,09-02-2024 02:51:48,09-02-2024 02:51:49,1.025s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/input_password""), ""BAJT1ZPoE3l3o21u9YY6QQ=="")",Chrome 121.0.0.0,,,09-02-2024 02:51:49,09-02-2024 02:51:51,1.822s,PASSED
+"click(findTestObject(""Object Repository/Amazon_Sign_in_Page_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,09-02-2024 02:51:51,09-02-2024 02:51:51,0.477s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,09-02-2024 02:51:51,09-02-2024 02:51:51,0.253s,PASSED
